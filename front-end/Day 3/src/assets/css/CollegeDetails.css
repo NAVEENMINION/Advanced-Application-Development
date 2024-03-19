@@ -1,0 +1,93 @@
+.college-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.college-item {
+  width: 350px; /* Increased width */
+  margin: 30px; /* Increased margin */
+  background-color: #dcb2b297;
+  border-radius: 15px; /* Increased border radius */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+  overflow: hidden; 
+  animation: shockAnimation 1s infinite alternate; 
+}
+
+@keyframes shockAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(30px); /* Increased translation */
+  }
+}
+
+.college-info {
+  padding: 30px; /* Increased padding */
+}
+
+.college-info h2 {
+  margin-top: 0;
+  font-size: 24px; /* Increased font size */
+}
+
+.college-info p {
+  margin-bottom: 20px; /* Increased margin */
+  font-size: 18px; /* Increased font size */
+}
+
+.college-info strong {
+  color: #062def;
+  font-size: 20px; /* Increased font size */
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0; /* Increased border radius */
+}
+
+.enroll-button,
+.view-courses-button,
+.back-button,
+.exit-button {
+  padding: 15px 30px; /* Increased padding */
+  font-size: 20px; /* Increased font size */
+  border-radius: 8px; /* Increased border radius */
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.enroll-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+.enroll-button:hover {
+  background-color: #218838;
+}
+
+.view-courses-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.view-courses-button:hover {
+  background-color: #0056b3;
+}
+
+.back-button,
+.exit-button {
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  margin-right: 15px; /* Increased margin */
+}
+
+.back-button:hover,
+.exit-button:hover {
+  background-color: #c82333;
+}
