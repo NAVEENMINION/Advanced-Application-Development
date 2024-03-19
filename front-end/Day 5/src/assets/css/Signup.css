@@ -1,0 +1,71 @@
+body {
+    background-color: #5f3333b7; /* Light gray background for all elements */
+}
+
+.signup-container {
+    margin: 50px auto; /* Center the container horizontally and adjust top margin */
+    display: flex;
+    justify-content: center; /* Center the child elements horizontally */
+}
+
+.box {
+    background-color: #ffcccc; /* Light red background */
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 400px;
+    border-radius: 12px; /* Rounded corners */
+}
+
+.signup-form {
+    background-color: #ffffff; /* White background */
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 400px;
+    border-radius: 12px; /* Rounded corners */
+    border: 2px solid #ddd; /* Light gray border */
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray text */
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 6px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+select {
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #007bff; /* Dark blue background */
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px; /* Slightly rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Dark blue background on hover */
+}

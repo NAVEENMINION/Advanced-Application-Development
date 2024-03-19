@@ -1,0 +1,72 @@
+.login-container {
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: #0e1d48;
+    padding: 100px; /* Increased padding for bigger size */
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4); /* Increased box shadow */
+    width: 700px; /* Increased width for bigger size */
+    animation: boxAnimation 3s ease 1 forwards;
+    background: linear-gradient(0deg, transparent, transparent, #354d4e, #354d4e, #354d4e);
+    transform-origin: bottom right;
+    overflow: hidden;
+    border-color: #082a2d;
+}
+
+.sign-box {
+    margin-top: 180px; 
+}
+
+.login-form {
+    background-color: #f9f9f9;
+    padding: 90px; 
+    border-style: double;
+    border-color: #45f3ff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4); /* Increased box shadow */
+    width: 600px; /* Increased width for bigger size */
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 40px; /* Adjusted margin bottom */
+    color: #333;
+}
+
+.login-group {
+    margin-bottom: 40px; 
+}
+
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 25px; /* Increased padding for bigger size */
+    font-size: 24px; /* Increased font size for bigger size */
+    border: 3px solid #ccc; /* Increased border thickness */
+    border-radius: 8px; /* Increased border radius */
+}
+
+select {
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 25px; /* Increased padding for bigger size */
+    font-size: 24px; /* Increased font size for bigger size */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #374b39;
+}
+
